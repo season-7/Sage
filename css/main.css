@@ -137,14 +137,22 @@ FOOTER
     color: white;
 }
 
-.footer-bottom{
-    color:burlywood;
+#footer-bottom{
+    color:black;
 }
 
-.footer-bottom small{
-    float:left;
+#sage-name{
+    display: inline-block;
     font-weight: 500;
     font-size: 16px;
     margin:25px;
+    text-align: center;
     line-height: 35px;
+}
+
+#terms-privacy{
+    display: inline-block;
+    text-align: center;
+    width:40%
+        
 }

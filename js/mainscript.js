@@ -3,5 +3,6 @@ $(document).ready(function(){
     var email = $('#email-input').val;
     /*check if the email is valid*/
     var regex = //i;
+        
     
 });

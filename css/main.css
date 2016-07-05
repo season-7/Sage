@@ -66,6 +66,20 @@ header{
     cursor: pointer;
 }
 
+#call-to-action h3{
+    
+}
+
+#call-to-action p{
+    
+}
+
+#get-in-touch-link a{
+    padding:10px;
+    text-decoration: none;
+    border-bottom: 5px solid white;
+    color:white;
+}
 /**--------------------------------------
 JOurnal SECTION
 ------------------------------------*/
@@ -75,7 +89,9 @@ JOurnal SECTION
 }
 
 #journal-header{
-    
+    font-size: 95px;
+    padding: 22px;
+    color:black;
 }
 
 .article-container{

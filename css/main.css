@@ -66,6 +66,9 @@ header{
     cursor: pointer;
 }
 
+/**--------------------------------------
+JOurnal SECTION
+------------------------------------*/
 
 
 /**--------------------------------------
@@ -76,16 +79,37 @@ PARTNERS SECTION
     text-align: center;
 }   
 
-#quotes{
-    font-size:15px;
+#quote-container{
+    padding:50px;
+    margin: 30px 50px 35px 30px;    
 }
 
+#slider-buttons{
+    list-style: none;
+}
+
+#slider-buttons li{
+    background-color:white;
+    
+}
+
+.quotes{
+    color:white;
+    font-size:25px;
+    padding:50px;
+    flex-wrap: wrap;
+}
+
+.quoter{
+    font-size: 15px;
+}
 #testimonials-img-container{
     padding:50px;
 }
 
 .testimonial-logos{
     height:2.5em;
+    padding:70px;
 }
 /**--------------------------------------
 FOOTER

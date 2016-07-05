@@ -1,5 +1,6 @@
 body{
-    margin:0px;
+  background-color: #362D30;
+  margin:0px;
   color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -8,21 +9,20 @@ body{
 HEADER
 ------------------------------------*/
 header{
-    display:block;
+    display:inline-block;;
     padding:10px;
-    background-color:#0E1628;
+    background-color:#362D30
     color:wheat;
+    margin-bottom:
 }
 
 /*logo and name*/
 #logo-container{
     float:left;
-    display:flex;
+    margin-left: -9px;
+    margin-top: -9px;
 }
 
-#logo-container{
-    
-}
 
 #logo{
     display:inline-block;
@@ -31,7 +31,7 @@ header{
 }
 
 #name-and-tag{
-    
+
 }
 
 #name{
@@ -49,16 +49,19 @@ header{
 }
 /*navigation bar*/
 #top-nav{
-    margin-left:650px;
-    padding:30px;
+  margin-left:200px;
+  margin-top:-10px;
 }
 /*nav links*/
 #top-nav a{
-    padding:50px;
+    font-size:15px;
+    margin-bottom:-110px;
+    padding:20px;
     text-decoration: none;
     font-family: Raleway;
-    text-transform: uppercase;
-    color:#767676;
+    color:#9A9697;
+    display: inline-block;
+    text-align: center;
 }
 
 #top-nav a:hover{
@@ -134,6 +137,13 @@ JOurnal SECTION
 .explore-more-btn:hover{
     background-color:black;
     color:wheat;    
+
+#social{
+  color: #9A9697;
+  float: right;
+  margin-top:-20px;
+  margin-right:20px;
+  padding-left: 70px;
 }
 
 #show-more-link{
@@ -153,6 +163,57 @@ PARTNERS SECTION
     background-color:#31282B;
     text-align: center;
 }   
+=======
+#head{
+  color:#362D30;
+  margin-top: 350px;
+}
+
+#head p{
+  text-align:center;
+  color: #fff;
+  background-color: #362D30;
+}
+
+#head .first{
+  font-size: 90px;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+#head .second {
+  font-size: 90px;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+#head .third {
+  font-size: 20px;
+  color: #C1BFC0;
+}
+
+#head div{
+  text-align: center;
+  color: #000;
+}
+
+#head button{
+  background-color: #fff;
+  border-color: #fff;
+  height: 60px;
+  width: 200px;
+}
+
+/*Projects and Featured*/
+#cover{
+  margin-top:300px;
+}
+
+#projects{
+  float: left;
+  background-color: #FAFAFA;
+  color: #31282B;
+  width: 50%;
+  height: 800px;
+}
 
 #quote-container{
     padding:50px;
@@ -163,9 +224,53 @@ PARTNERS SECTION
     list-style: none;
 }
 
+<<<<<<< HEAD
 #slider-buttons li{
     background-color:white;
     
+=======
+#projects p, #projects h1{
+  margin-left: 205px;
+}
+
+#projects p{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: #555555;
+  font-size: 15px;
+}
+
+#projects h1{
+  color: #31282B;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 50px;
+}
+
+#featured{
+  float: right;
+  background-color: #F63C3D;
+  color: #FFFFFF;
+  width: 50%;
+  height: 800px;
+}
+
+#featured h1,#featured h2,#featured p{
+  margin-left: 70px;
+}
+
+#featured p{
+  margin-top: 40px;
+  color: #fff;
+}
+
+#featured h1{
+padding-top: 20px;
+color: #fff;
+}
+
+#featured h2{
+  padding-top: 500px;
+  color: #F97779;
 }
 
 .quotes{

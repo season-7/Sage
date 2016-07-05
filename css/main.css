@@ -1,5 +1,4 @@
 body{
-  background-color: #362D30;
   margin:0px;
   color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -8,6 +7,9 @@ body{
 /**--------------------------------------
 HEADER
 ------------------------------------*/
+header{
+    background-color: #362D30;
+}
 #head{
   color:#362D30;
   margin-top: 350px;
@@ -120,6 +122,45 @@ header{
     color:#FF5252;
     cursor: pointer;
 }
+/*------------------
+SERVICES
+------------------------*/
+#services-section{
+    padding:50px;
+background-color:#F7F7F7;    
+}
+
+#services-header{
+    font-size:55px;
+    color:black;
+}
+
+.serve-sect{
+    display: inline-block;
+    width:30%;
+    vertical-align: top;
+    padding:10px;
+}
+
+.serve-img{
+    
+}
+
+.serve-header{
+    color:black;
+}
+.serve-text{
+    
+}
+
+/*------------------
+CALL TO ACTION
+------------------------*/
+#call-to-action{
+    text-align: center;
+    background-color:#31282B;
+    padding:50px;    
+}
 
 #call-to-action h3{
     
@@ -144,7 +185,7 @@ JOurnal SECTION
 }
 
 #journal-header{
-    font-size: 95px;
+    font-size: 45px;
     padding: 22px;
     color:black;
 }

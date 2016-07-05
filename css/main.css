@@ -78,61 +78,73 @@ SECTIONS
 FOOTER
 ------------------------------------*/
 .primary-footer{
-    background-color:#0E1628;
+    background-color:#FFF;
+    margin: 0;
 }
-.primary-footer small{
+
+.footer-top{
+    display:flex;
+    margin-top: 10px;
+}
+
+.form-footer{
+    padding-left:100px;
+    display:inline-block;
+    width:50%;
+}
+
+.stay-conn-header{
+    color:black;
+    font-size: 55px;
+    line-height: 30px;
+}
+/*email input*/
+#email-input{
+    padding:10px;
+}
+
+/*sign up button*/
+#sign-up-btn{
+    background-color:#F63C3D;
+    color:white;
+    padding:10px;
+}
+    
+/*social container at the footer*/
+.social-cont{
+    width:40%;
+}
+
+.social-icons{
+    display: inline-block;
+    vertical-align: top;
+    width: 35.0%;    
+    padding:40px;
+    margin-right:-5px;
+}
+
+.icon-holder{
+    display:inline-block;
+    padding:25px;
+    color:white;
+}
+
+.icon-text{
+    display: inline-block;
+    vertical-align: top;
+}
+.icon-text h3{
+    color: white;
+}
+
+.footer-bottom{
+    color:burlywood;
+}
+
+.footer-bottom small{
     float:left;
     font-weight: 500;
     font-size: 16px;
     margin:25px;
     line-height: 35px;
-}
-
-/*mercury link*/
-.primary-footer small a{
-    text-decoration: none;
-    color:wheat;
-}
-
-.footer-top{
-    display:flex;
-}
-
-/*email input*/
-#email-input{
-    
-}
-
-/*sign up button*/
-#sign-up-btn{
-    
-}
-
-/*social container at the footer*/
-.social-cont{
-    display:inline-block;
-}
-
-.primary-footer small a:hover{
-    color:burlywood;
-}
-
-
-.container{
-  margin: 0 auto;
-  width: 100%;
-}
-
-/*Clearfix*/
-.group:before,
-.group:after {
-  content: "";
-  display: table;
-}
-.group:after {
-  clear: both;
-}
-.group {
-  clear: both;
-  *zoom: 1;
 }

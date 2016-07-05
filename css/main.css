@@ -8,6 +8,58 @@ body{
 /**--------------------------------------
 HEADER
 ------------------------------------*/
+#head{
+  color:#362D30;
+  margin-top: 350px;
+}
+
+#head p{
+  text-align:center;
+  color: #fff;
+  background-color: #362D30;
+}
+
+#head .first{
+  font-size: 90px;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+#head .second {
+  font-size: 90px;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+#head .third {
+  font-size: 20px;
+  color: #C1BFC0;
+}
+
+#head div{
+  text-align: center;
+  color: #000;
+}
+
+#head button{
+  background-color: #fff;
+  border-color: #fff;
+  height: 60px;
+  width: 200px;
+}
+
+/*Projects and Featured*/
+#cover{
+  margin-top:300px;
+}
+
+#projects{
+  float: left;
+  background-color: #FAFAFA;
+  color: #31282B;
+  width: 50%;
+  height: 800px;
+}
+
+
 header{
     display:inline-block;;
     padding:10px;
@@ -137,6 +189,7 @@ JOurnal SECTION
 .explore-more-btn:hover{
     background-color:black;
     color:wheat;    
+}
 
 #social{
   color: #9A9697;
@@ -163,57 +216,6 @@ PARTNERS SECTION
     background-color:#31282B;
     text-align: center;
 }   
-=======
-#head{
-  color:#362D30;
-  margin-top: 350px;
-}
-
-#head p{
-  text-align:center;
-  color: #fff;
-  background-color: #362D30;
-}
-
-#head .first{
-  font-size: 90px;
-  font-family: 'Droid Sans', sans-serif;
-}
-
-#head .second {
-  font-size: 90px;
-  font-family: 'Droid Sans', sans-serif;
-}
-
-#head .third {
-  font-size: 20px;
-  color: #C1BFC0;
-}
-
-#head div{
-  text-align: center;
-  color: #000;
-}
-
-#head button{
-  background-color: #fff;
-  border-color: #fff;
-  height: 60px;
-  width: 200px;
-}
-
-/*Projects and Featured*/
-#cover{
-  margin-top:300px;
-}
-
-#projects{
-  float: left;
-  background-color: #FAFAFA;
-  color: #31282B;
-  width: 50%;
-  height: 800px;
-}
 
 #quote-container{
     padding:50px;
@@ -224,11 +226,10 @@ PARTNERS SECTION
     list-style: none;
 }
 
-<<<<<<< HEAD
 #slider-buttons li{
     background-color:white;
+}
     
-=======
 #projects p, #projects h1{
   margin-left: 205px;
 }

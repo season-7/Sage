@@ -69,11 +69,24 @@ header{
 
 
 /**--------------------------------------
-SECTIONS
+PARTNERS SECTION
 ------------------------------------*/
+#testimonials-section{
+    background-color:#31282B;
+    text-align: center;
+}   
 
+#quotes{
+    font-size:15px;
+}
 
+#testimonials-img-container{
+    padding:50px;
+}
 
+.testimonial-logos{
+    height:2.5em;
+}
 /**--------------------------------------
 FOOTER
 ------------------------------------*/

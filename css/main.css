@@ -69,7 +69,61 @@ header{
 /**--------------------------------------
 JOurnal SECTION
 ------------------------------------*/
+#journal-section{
+    background-color:white;
+    
+}
 
+#journal-header{
+    
+}
+
+.article-container{
+    
+}
+
+.img-placeholder{
+    
+}
+
+.article-view{
+    
+}
+
+.article-category-header{
+    color:red;
+    font-size:15px;
+}
+
+.article-header{
+    color:black;
+}
+
+.article-text{
+    
+}
+
+.explore-more-btn{
+    background-color: transparent;
+    border:3px solid black;
+    padding:15px;
+    color:black;
+}
+
+.explore-more-btn:hover{
+    background-color:black;
+    color:wheat;    
+}
+
+#show-more-link{
+    text-align: center;
+}
+#show-more-link a{
+    padding:10px;
+    text-decoration: none;
+    border-bottom: 5px solid black;
+    color:black;
+}
 
 /**--------------------------------------
 PARTNERS SECTION

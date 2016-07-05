@@ -200,7 +200,7 @@ JOurnal SECTION
 
 .img-placeholder{
     background-color: #31282B;
-    padding:120px;
+    padding:150px;
 }
 
 .article-view{
@@ -413,5 +413,4 @@ FOOTER
     display: inline-block;
     text-align: center;
     width:40%
-        
 }

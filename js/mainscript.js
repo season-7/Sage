@@ -24,5 +24,10 @@ $(document).ready(function(){
         slides[slideIndex-1].style.display = "block"; 
         setTimeout(showSlides, 3000); // Change image every 3 seconds  
     }
-        
+    
+    /*animations for social media icons*/
+    $('#facebook-icon').on('hover', function(){
+        $(this).css('color:blue');
+    });
+    
 });

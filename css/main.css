@@ -1,0 +1,144 @@
+body{
+    margin:0px;
+  color: #888;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/**--------------------------------------
+HEADER
+------------------------------------*/
+header{
+    display:block;
+    padding:10px;
+    background-color:#0E1628;
+    color:wheat;
+}
+
+/*logo and name*/
+#logo-container{
+    float:left;
+    display:flex;
+}
+
+#logo-container{
+    
+}
+
+#logo{
+    display:inline-block;
+    height:5em;
+    width:5em;
+}
+
+#name-and-tag{
+    
+}
+
+#name{
+    font-family: Cormorant Upright,cursive;
+    font-weight: 800;
+    font-size:35px;
+    line-height: 2px;
+}
+
+#tagline{
+    font-family: Cormorant SC,Poiret One,cursive;
+    font-weight: 400;
+    font-size:17px;
+    line-height: 2px;
+}
+/*navigation bar*/
+#top-nav{
+    margin-left:650px;
+    padding:30px;
+}
+/*nav links*/
+#top-nav a{
+    padding:50px;
+    text-decoration: none;
+    font-family: Raleway;
+    text-transform: uppercase;
+    color:#767676;
+}
+
+#top-nav a:hover{
+    color:#FF5252;
+    cursor: pointer;
+}
+
+
+
+/**--------------------------------------
+SECTIONS
+------------------------------------*/
+
+
+
+/**--------------------------------------
+FOOTER
+------------------------------------*/
+.primary-footer{
+    background-color:#0E1628;
+}
+.primary-footer small{
+    float:left;
+    font-weight: 500;
+    font-size: 16px;
+    margin:25px;
+    line-height: 35px;
+}
+
+/*mercury link*/
+.primary-footer small a{
+    text-decoration: none;
+    color:wheat;
+}
+
+.primary-footer small a:hover{
+    color:burlywood;
+}
+
+.container{
+  margin: 0 auto;
+  width: 100%;
+}
+
+/*Clearfix*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+/*footer navigation*/
+.nav {
+    text-align: right;
+    float: right;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+
+/*social media links*/
+.nav li a{
+    color:white;
+    text-decoration:none;
+}
+
+.nav li a:hover{
+    color:aqua;
+
+}
+
+.nav li:last-child {
+  margin-right: 10px;
+}

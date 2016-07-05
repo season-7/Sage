@@ -79,11 +79,16 @@ JOurnal SECTION
 }
 
 .article-container{
-    
+    display: inline-block;
+    width:30%;
+    vertical-align: top;
+    text-align: center;
+    margin: 20px;
 }
 
 .img-placeholder{
-    
+    background-color: #31282B;
+    padding:120px;
 }
 
 .article-view{

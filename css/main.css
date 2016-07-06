@@ -572,7 +572,7 @@ FOOTER
 .form-footer{
     padding-left:100px;
     display:inline-block;
-    width:50%;
+    width:45%;
 }
 
 .stay-conn-header{
@@ -594,21 +594,42 @@ FOOTER
     
 /*social container at the footer*/
 .social-cont{
-    width:40%;
+    width:55%;
+	margin:10px 0px 0px 290px;
 }
 
 .social-icons{
     display: inline-block;
     vertical-align: top;
-    width: 35.0%;    
-    padding:40px;
-    margin-right:-5px;
+    width:30%;    
+    padding:50px;
+    margin-right:-4px;
 }
 
 .icon-holder{
     display:inline-block;
     padding:25px;
     color:white;
+}
+
+.icon-holder a{
+	text-decoration: none;
+	color:white;
+}
+
+#facebook-icon:hover{
+	color:#4867AA;
+}
+#twitter-icon:hover{
+	color:#2EACF6;
+}
+
+#googleplus-icon:hover{
+	color:#EA4335;
+}
+
+#pinterest-icon:hover{
+	color:#BD2126;
 }
 
 .icon-text{
@@ -621,6 +642,7 @@ FOOTER
 
 #footer-bottom{
     color:black;
+	text-align: center;
 }
 
 #sage-name{
@@ -628,12 +650,24 @@ FOOTER
     font-weight: 500;
     font-size: 16px;
     margin:25px;
-    text-align: center;
-    line-height: 35px;
+    text-align: left;
 }
 
 #terms-privacy{
     display: inline-block;
-    text-align: center;
-    width:40%
+    text-align: right;
+    width:40%;
+	text-decoration: none;
+	margin-left:125px;
+}
+
+/*Terms and privacy policy links*/
+#terms{
+	padding:10px;
+	text-decoration: none;	
+}
+
+#privacy{
+	text-decoration: none;
+	padding:10px;
 }

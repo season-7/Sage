@@ -26,8 +26,8 @@ $(document).ready(function(){
     }
     
     /*animations for social media icons*/
-    $('#facebook-icon').on('hover', function(){
-        $(this).css('color:blue');
+    $('.social-icons').on('mouseenter', '.icon-holder', function(){
+        $(this).find('#pinterest-icon').css('color:blue');
     });
     
 });

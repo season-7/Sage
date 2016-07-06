@@ -1,4 +1,5 @@
 body{
+  background-color: #362D30;
   margin:0px;
   color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -12,7 +13,7 @@ header{
 }
 #head{
   color:#362D30;
-  margin-top: 350px;
+  margin-top: 310px;
 }
 
 #head p{
@@ -48,8 +49,13 @@ header{
   width: 200px;
 }
 
+#social{
+  float: right;
+  margin-right: 20px;
+  margin-top: -20px;
+}
 /*Projects and Featured*/
-#cover{
+#wrapper{
   margin-top:300px;
 }
 
@@ -62,19 +68,12 @@ header{
 }
 
 
-header{
-    display:inline-block;;
-    padding:10px;
-    background-color:#362D30
-    color:wheat;
-    margin-bottom:
-}
 
 /*logo and name*/
 #logo-container{
     float:left;
-    margin-left: -9px;
-    margin-top: -9px;
+    margin-left: -px;
+    margin-top: -px;
 }
 
 
@@ -116,12 +115,235 @@ header{
     color:#9A9697;
     display: inline-block;
     text-align: center;
+    padding-left: 80px;
 }
 
 #top-nav a:hover{
     color:#FF5252;
     cursor: pointer;
 }
+
+#head{
+  text-align: center;
+}
+
+
+#head p{
+  text-align:center;
+  color: #fff;
+  background-color: #362D30;
+}
+
+#head .first{
+    font-size: 90px;
+    display:inline-block;;
+    padding:10px;
+    background-color:#362D30
+    color:wheat;
+    margin-bottom:-20px;
+}
+
+#head .third {
+  font-size: 20px;
+  color: #C1BFC0;
+}
+
+#head div{
+  text-align: center;
+  color: #000;
+}
+
+#head button{
+  background-color: #fff;
+  border-color: #fff;
+  height: 60px;
+  width: 200px;
+}
+
+.col-1{
+  width: 33%;
+  display: inline-block;
+  background-color:#362D30;
+  height:250px;
+  margin-top: 150px;
+  padding-left: 2px;
+}
+
+.col-2{
+  width: 32.5%;
+  display: inline-block;
+  background-color:#31282B;
+  height:250px;
+  margin-top: 150px;
+  margin-right: -2px;
+  margin-left: -2px;
+}
+
+.col-3{
+  width: 33%;
+  display: inline-block;
+  background-color:#362D30;
+  height:250px;
+  margin-top: 150px;
+  padding-right: 2px;
+}
+
+#Discover{
+  background-color:#FAFAFA;
+  height: 119px;
+}
+
+#Discover button{
+  background-color: #F63C3D;
+  color: #fff;
+  border: 1px solid #F63C3D;
+  text-align: center;
+  height: 40px;
+  width:180px;
+  margin: 20px;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+#Discover div{
+  color: #000;
+}
+
+#History{
+  margin-right: px;
+  float: left;
+  width: 60%;
+  margin-top: 0px;
+  background-color: #fff;
+  color: #31282B;
+  height: 950px;
+  text-align: justify;
+  margin-left:
+}
+
+#History h1{
+  color: #31282B;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 80px;
+}
+
+#History p{
+  color: #31282B;
+  font-family: 'Droid Sans', sans-serif;
+  font-size:20px;
+  line-height: 32px;
+}
+
+
+#History button{
+  border: 2px solid #F63C3D;
+  background-color: #F63C3D;
+  color: #fff;
+  height: 40px;
+  width:180px;
+  margin-top: 20px;
+}
+
+#test img{
+  float: right;
+  width: 40%;
+  background-color:#fff;
+
+}
+
+#division{
+  background-color: #fff;
+  text-align: center;
+}
+
+#division .no{
+  font-size: 40px;
+  color:#F63C3D;
+  margin-bottom: -10px;
+  margin-top: 8px;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+
+.div-1{
+  display: inline-block;
+  width: 33.33%
+}
+
+.div-2{
+  display: inline-block;
+  width: 33.33%
+}
+
+.div-3{
+  display: inline-block;
+  width: 30.33%
+}
+
+
+
+
+
+
+
+
+/*Projects and Featured*/
+#wrapper{
+  margin-top:300px;
+  width: 100%;
+}
+
+#projects{
+  float: left;
+  background-color: #FAFAFA;
+  color: #31282B;
+  width: 50%;
+  height:800px;
+}
+
+
+#projects p, #projects h1{
+  margin-left: 205px;
+}
+
+#projects p{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: #555555;
+  font-size: 15px;
+}
+
+#projects h1{
+  color: #31282B;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 50px;
+}
+
+#featured{
+  float: right;
+  background-color: #F63C3D;
+  color: #FFFFFF;
+  width: 50%;
+  height: 850px;
+}
+
+#featured h1,#featured h2,#featured p{
+  margin-left: 70px;
+}
+
+#featured p{
+  margin-top: 40px;
+  color: #fff;
+}
+
+#featured h1{
+padding-top: 20px;
+color: #fff;
+}
+
+#featured h2{
+  padding-top: 500px;
+  color: #F97779;
+
 /*------------------
 SERVICES
 ------------------------*/

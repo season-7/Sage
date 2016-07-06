@@ -640,6 +640,11 @@ FOOTER
     color: white;
 }
 
+.form-error{
+  animation: error 0.8s ease;
+  background: rgba(0,0,0,0.7);
+}
+
 #footer-bottom{
     color:black;
 	text-align: center;

@@ -7,9 +7,9 @@ $(document).ready(function(){
 		/*obtain the value of the email*/
 		var email = $('#email-input').val;		
 		/*Test the validity of the email*/
-		regex.test(email) ? submit(email) : emailInput.addClass('form-error');
+		regex.test(email) || email != '' ? submit(email) : emailInput.toggle("bounce",{ times: 3 },"slow" );
 	});
-	
+/*	addClass('form-error')*/
 	/*function to submit the valid email*/
 	function submit(validEmail){
 		
